@@ -1,0 +1,44 @@
+.header__main{
+	color: #fff;
+	padding: 55px;
+	display: flex;
+	/*justify-content: space-between;*/
+	align-items: center;
+}
+
+.header__link.-up{
+	text-transform: uppercase;
+	display: flex;
+}
+
+.header__link.-up.-spb{
+	color: #2F80ED;
+}
+
+.main{
+	background-image: url(../img/mainBG.png);
+	background-repeat: no-repeat;
+	max-width: 100%;
+}
+
+.header__cities{
+	text-transform: uppercase;
+	display: flex;
+}
+
+.header__link{
+	margin-right: 25px;
+}
+
+.header__actions{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.button.-white{
+	background-color: #fff;
+	border-radius: %;
+	padding: 7px 15px;
+	color: #2F80ED;
+}

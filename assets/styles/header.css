@@ -1,6 +1,80 @@
-.header__main{
+/*@media screen and (max-width: 2559) {*/
+	
+	.header{
+		color: #fff;
+		height: 100px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.header__link.-up{
+		text-transform: uppercase;
+		display: flex;
+		color: #f5f5f5;
+	}
+
+	.header__link.-up.-spb{
+		color: #2F80ED;
+	}
+
+	.main{
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.header__cities{
+		text-transform: uppercase;
+		margin-left: 100px;
+		display: flex;
+		justify-content: space-between;
+
+	}
+
+	.header__link{
+		margin-right: 25px;
+		color: #fff;
+	}
+
+	.header__actions{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.button.-white{
+		background-color: #fff;
+		height: 45px;
+		width: 150px;
+		color: #2F80ED;
+		position: relative;
+		border: none;
+		border-radius: 25px;
+	}
+
+	.button__part1.-white{
+		position: absolute;
+			left: -75px;
+		border-radius: 50%;
+		height: 30px;
+	}
+
+	.header__rate{
+		border-radius: 50%;
+		width: 330px;
+		height: 250px;
+		background-color: #f5f5f5;
+		color: #2F80ED;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+/*}
+*/@media screen and (max-width: 767) {
+	.header{
 	color: #fff;
-	padding: 55px;
+	height: 100px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -9,6 +83,7 @@
 .header__link.-up{
 	text-transform: uppercase;
 	display: flex;
+	color: #f5f5f5;
 }
 
 .header__link.-up.-spb{
@@ -16,18 +91,21 @@
 }
 
 .main{
-	background-image: url(../img/mainBG.png);
-	background-repeat: no-repeat;
-	max-width: 100%;
+	display: flex;
+	justify-content: space-between;
 }
 
 .header__cities{
 	text-transform: uppercase;
+	margin-left: 100px;
 	display: flex;
+	justify-content: space-between;
+
 }
 
 .header__link{
 	margin-right: 25px;
+	color: #fff;
 }
 
 .header__actions{
@@ -38,7 +116,30 @@
 
 .button.-white{
 	background-color: #fff;
-	border-radius: %;
-	padding: 7px 15px;
+	height: 45px;
+	width: 150px;
 	color: #2F80ED;
+	position: relative;
+	border: none;
+	border-radius: 25px;
+}
+
+.button__part1.-white{
+	position: absolute;
+		left: -75px;
+	border-radius: 50%;
+	height: 30px;
+}
+
+.header__rate{
+	border-radius: 50%;
+	width: 330px;
+	height: 250px;
+	background-color: #f5f5f5;
+	color: #2F80ED;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
 }

@@ -1,0 +1,38 @@
+.reason__title{
+	font-weight: bold;
+	font-size: 30px;
+}	
+
+.reason__title{
+	width: 506px;
+	height: 503px;
+	display: flex;
+	align-items: center;
+}
+
+.reason.-bubble{
+	width: 314px;
+	height: 220px;
+	background: #FFFFFF;
+	box-shadow: 0px 30px 100px rgba(47, 55, 237, 0.1);
+	border-radius: 10px;
+	margin-bottom: 61px;
+}
+
+.reason__list{
+	height: 503px;
+}
+
+.reason__subtitle{
+	font-weight: bold;
+	font-size: 24px;
+	color: #2F80ED;
+}
+
+.reasons{
+
+}
+
+.container.-f{
+
+}

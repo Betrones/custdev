@@ -26,3 +26,11 @@ a {
 .-up{
 	text-transform: uppercase;
 }
+
+.button {
+	cursor: pointer;
+}
+
+.-f{
+	display: flex;
+}

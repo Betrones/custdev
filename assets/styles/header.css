@@ -52,6 +52,10 @@
 		border-radius: 25px;
 	}
 
+	.button.-white:hover{
+		color: #000;
+	}
+
 	.button__part1.-white{
 		position: absolute;
 			left: -75px;

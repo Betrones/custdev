@@ -25,6 +25,12 @@
 		background: #fff;
 		box-shadow: 0px 30px 100px rgba(47, 55, 237, 0.1);
 		border-radius: 10px;
+		padding: 34px 53px 0;
+		color: #636363;
+	}
+
+	.reason__text{
+		margin-top: 15px;
 	}
 
 	.reason.-bubble.-a {
@@ -96,9 +102,14 @@
 		background: #fff;
 		box-shadow: 0px 30px 100px rgba(47, 55, 237, 0.1);
 		border-radius: 10px;
-
+		padding: 34px 53px 0;
+		color: #636363;
 		/*width: 0;
 		height: 0;*/
+	}
+
+	.reason__text{
+		margin-top: 15px;
 	}
 
 	.reason.-bubble.-n{
@@ -176,9 +187,14 @@
 		background: #fff;
 		box-shadow: 0px 30px 100px rgba(47, 55, 237, 0.1);
 		border-radius: 10px;
-
+		padding: 34px 53px 0;
+		color: #636363;
 		/*width: 0;
 		height: 0;*/
+	}
+
+	.reason__text{
+		margin-top: 15px;
 	}
 
 	/*.reason.-bubble.-n{
@@ -215,9 +231,5 @@
 
 	.container.-f{
 		display: block;
-	}
-
-	.container{
-		width: 300px;
 	}
 }

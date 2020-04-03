@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 .who{
 	margin-top: 100px;
 	background-image: url(../img/whoBG.png);
 	height: 600px;
 	background-repeat: no-repeat;
+=======
+.who{
+	margin-top: 100px;
+	background-image: url(../img/whoBG.png);
+	height: 600px;
+	background-repeat: no-repeat;
+>>>>>>> master
 }

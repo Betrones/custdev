@@ -52,4 +52,7 @@ a {
 	.-nope{
 		display: none;
 	}
+	body{
+		background-image: url(../img/mainBGm.png);
+	}
 }

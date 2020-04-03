@@ -1,62 +1,4 @@
-<<<<<<< HEAD
-body, h1, h2, h3, h4, h5, p, a, ul, ol {
-	margin: 0;
-	padding: 0;
-	font-family: "Trebuchet MS";
-}
 
-body{
-	background-image: url(../img/mainBG.png);
-	background-repeat: no-repeat;
-	max-width: 100%;
-	background-size: 100%;
-}
-
-img {
-	max-width: 100%;
-}
-
-* {
-	box-sizing: border-box;
-}
-
-a {
-	text-decoration: none;
-}
-
-.-up{
-	text-transform: uppercase;
-}
-
-.button {
-	cursor: pointer;
-}
-
-.-f{
-	display: flex;
-}
-
-@media screen and (min-width: 768px) and (max-width: 1023px){
-	.-none{
-		display: none;
-	}
-
-	body{
-	background-image: url(../img/mainBGl.png);
-	background-repeat: no-repeat;
-	max-width: 100%;
-	background-size: 100%;
-}
-}
-
-@media screen and (min-width: 320px) and (max-width: 767px){
-	.-nope{
-		display: none;
-	}
-	body{
-		background-image: url(../img/mainBGm.png);
-	}
-=======
 body, h1, h2, h3, h4, h5, p, a, ul, ol {
 	margin: 0;
 	padding: 0;
@@ -104,5 +46,4 @@ a {
 	.-nope{
 		display: none;
 	}
->>>>>>> master
 }

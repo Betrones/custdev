@@ -5,20 +5,13 @@
 	.reason__title{
 		font-weight: bold;
 		font-size: 30px;
-	}	
-
-	.reason__title{
-		width: 506px;
+		width: 40%;
 		height: 503px;
 		display: flex;
 		align-items: center;
 	}
 
 	.reason.-bubble{
-		position: absolute;
-			
-
-		display: inline-block;
 		margin: 20px;
 		width: 314px;
 		height: 220px;
@@ -31,27 +24,15 @@
 
 	.reason__text{
 		margin-top: 15px;
-	}
 
-	.reason.-bubble.-a {
-		right: -750px;
-	}
-
-	.reason.-bubble.-b{
-		bottom: 0px;
-	}
-
-	.reason.-bubble.-c{
-		right: -750px;
-		bottom: 0;
 	}
 
 	.reason__list{
-		position: relative;
 		/*display: flex;
 		justify-content: space-between;
 		
-		align-items: center;*/
+		align-items: center;*/ 
+		max-height: 675px;
 	}
 
 	.reason__subtitle{

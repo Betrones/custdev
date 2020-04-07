@@ -27,7 +27,7 @@
 
 	.header__cities{
 		text-transform: uppercase;
-		margin-left: 100px;
+		margin-right: 100px;
 		display: flex;
 		justify-content: space-between;
 
@@ -56,6 +56,11 @@
 
 	.button.-white:hover{
 		color: #000;
+	}
+
+	.main{
+		display: flex;
+		justify-content: center;
 	}
 
 	.button__part1.-white{
@@ -97,6 +102,7 @@
 	.header__link.-spb.-up{
 		color: #2F80ED;
 		text-align: left;
+		margin-right: 100px;
 	}
 
 	.main{

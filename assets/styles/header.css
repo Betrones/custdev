@@ -3,9 +3,8 @@
 	
 	.header{
 		color: #fff;
-		height: 100px;
+		padding: 22px;
 		display: flex;
-		justify-content: space-between;
 		align-items: center;
 	}
 
@@ -16,20 +15,31 @@
 	}
 
 	.header__link.-up.-spb{
+		position: relative;
 		color: #2F80ED;
-		display: none;
+	}
+
+	.arrow-down {
+		position: absolute;
+			right: -18px;
+			top: 6px;
+		width: 1px; 
+		height: 1px; 
+		border-left: 5px solid transparent;
+		border-right: 5px solid transparent;		  
+		border-top: 5px solid #2F80ED;
 	}
 
 	.main{
-		display: flex;
-		justify-content: space-between;
+		/*display: flex;
+		justify-content: space-between;*/
 	}
 
 	.header__cities{
+	
 		text-transform: uppercase;
-		margin-right: 100px;
-		display: flex;
-		justify-content: space-between;
+		margin-right: 200px;
+		
 
 	}
 
@@ -56,11 +66,6 @@
 
 	.button.-white:hover{
 		color: #000;
-	}
-
-	.main{
-		display: flex;
-		justify-content: center;
 	}
 
 	.button__part1.-white{
@@ -106,8 +111,8 @@
 	}
 
 	.main{
-		display: flex;
-		justify-content: space-between;
+		/*display: flex;
+		justify-content: space-between;*/
 	}
 
 	.header__cities{

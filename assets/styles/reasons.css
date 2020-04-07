@@ -1,6 +1,6 @@
 
 
-@media screen and (min-width: 1024px) and (max-width: 5000px){
+@media screen and (min-width: 1024px) and (max-width: 3938px){
 
 	.reason__title{
 		font-weight: bold;
@@ -28,11 +28,12 @@
 	}
 
 	.reason__list{
-		/*display: flex;
-		justify-content: space-between;
+		/*display: flex;*/
+		/*justify-content: space-between;
 		
 		align-items: center;*/ 
-		max-height: 675px;
+		/*min-height: 500px;
+		max-width: 50%;*/
 	}
 
 	.reason__subtitle{

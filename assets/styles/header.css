@@ -6,6 +6,7 @@
 		padding: 22px;
 		display: flex;
 		align-items: center;
+		justify-content: space-between;
 	}
 
 	.header__link.-up{

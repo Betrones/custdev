@@ -1,16 +1,4 @@
-.burger__lp{
-	display: block;
-	height: 3px;
-	width: 15px;
-	background-color: #fff;
-}
 
-.burger__sp{
-	display: block;
-	height: 3px;
-	width: 5px;
-	background-color: #fff;
-}
 body, h1, h2, h3, h4, h5, p, a, ul, ol {
 		margin: 0;
 		padding: 0;
@@ -52,6 +40,19 @@ body, h1, h2, h3, h4, h5, p, a, ul, ol {
 	}}
 
 @media screen and (min-width: 768px) and (max-width: 1023px){
+	.burger__lp{
+		display: block;
+		height: 3px;
+		width: 15px;
+		background-color: #fff;
+	}
+
+	.burger__sp{
+		display: block;
+		height: 3px;
+		width: 5px;
+		background-color: #fff;
+	}
 	.-none{
 		display: none;
 	}

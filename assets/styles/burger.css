@@ -1,0 +1,17 @@
+.burger{
+	display: none;
+}
+
+.burger__lp{
+	display: block;
+	height: 3px;
+	width: 15px;
+	background-color: #fff;
+}
+
+.burger__sp{
+	display: block;
+	height: 3px;
+	width: 5px;
+	background-color: #fff;
+}

@@ -1,6 +1,5 @@
 
 @media screen and (min-width: 1024px) and (max-width: 3839px) {
-	
 	.header{
 		color: #fff;
 		padding: 22px;
@@ -21,9 +20,10 @@
 	}
 
 	.arrow-down {
+		display: block;
 		position: absolute;
-			right: -18px;
-			top: 6px;
+		right: -18px;
+		top: 6px;
 		width: 1px; 
 		height: 1px; 
 		border-left: 5px solid transparent;
@@ -53,27 +53,6 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-	}
-
-	.button.-white{
-		background-color: #fff;
-		height: 45px;
-		width: 150px;
-		color: #2F80ED;
-		position: relative;
-		border: none;
-		border-radius: 25px;
-	}
-
-	.button.-white:hover{
-		color: #000;
-	}
-
-	.button__part1.-white{
-		position: absolute;
-			left: -75px;
-		border-radius: 50%;
-		height: 30px;
 	}
 
 	.header__rate{
@@ -111,14 +90,8 @@
 		margin-right: 100px;
 	}
 
-	.main{
-		/*display: flex;
-		justify-content: space-between;*/
-	}
-
 	.header__cities{
 		text-transform: uppercase;
-		/*margin-left: 100px;*/
 		display: flex;
 		justify-content: space-between;
 
@@ -133,23 +106,6 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-	}
-
-	.button.-white{
-		background-color: #fff;
-		height: 45px;
-		width: 150px;
-		color: #2F80ED;
-		position: relative;
-		border: none;
-		border-radius: 25px;
-	}
-
-	.button__part1.-white{
-		position: absolute;
-			left: -75px;
-		border-radius: 50%;
-		height: 30px;
 	}
 
 	.header__rate{
@@ -216,23 +172,6 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-	}
-
-	.button.-white{
-		background-color: #fff;
-		height: 45px;
-		width: 150px;
-		color: #2F80ED;
-		position: relative;
-		border: none;
-		border-radius: 25px;
-	}
-
-	.button__part1.-white{
-		position: absolute;
-			left: -75px;
-		border-radius: 50%;
-		height: 30px;
 	}
 
 	.header__rate{

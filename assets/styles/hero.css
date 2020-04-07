@@ -1,0 +1,36 @@
+.hero{
+	color: #fff;
+	min-height: 100vh;
+}
+
+.hero__content {
+	position: relative;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 70px 0;	
+}
+
+.hero__right-part {
+	width: 50%;
+}
+
+.hero__date {
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+.hero__title{
+	font-size: 40px;
+	margin: 20px 0;
+}
+
+.hero__subtitle{
+	margin-bottom: 30px;
+}
+
+@media screen and (max-width: 1023px) {
+
+	
+}
+

@@ -1,75 +1,38 @@
-
 body, h1, h2, h3, h4, h5, p, a, ul, ol {
-		margin: 0;
-		padding: 0;
-		font-family: "Trebuchet MS";
-	}
+	margin: 0;
+	padding: 0;
+	font-family: "Trebuchet MS";
+}
 
+a {
+	text-decoration: none;
+}
 
-@media screen and (min-width: 1024px) and (max-width: 3839px){
-	
-	body{
-		background-image: url(../img/mainBG.png);
+* {
+	box-sizing: border-box;
+}
+
+img {
+	max-width: 100%;
+}
+
+body {
+	background-image: url(../img/mainBG.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+@media screen and (max-width: 1023px) {
+	body {
+		background-image: url(../img/mainBGl.png);
 		background-repeat: no-repeat;
 		max-width: 100%;
 		background-size: 100%;
 	}
-
-	img {
-		max-width: 100%;
-	}
-
-	* {
-		box-sizing: border-box;
-	}
-
-	a {
-		text-decoration: none;
-	}
-
-	.-up{
-		text-transform: uppercase;
-	}
-
-	.button {
-		cursor: pointer;
-	}
-
-	.-f{
-		display: flex;
-	}}
-
-@media screen and (min-width: 768px) and (max-width: 1023px){
-	.burger__lp{
-		display: block;
-		height: 3px;
-		width: 15px;
-		background-color: #fff;
-	}
-
-	.burger__sp{
-		display: block;
-		height: 3px;
-		width: 5px;
-		background-color: #fff;
-	}
-	.-none{
-		display: none;
-	}
-
-	body{
-	background-image: url(../img/mainBGl.png);
-	background-repeat: no-repeat;
-	max-width: 100%;
-	background-size: 100%;
-}
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px){
-	.-nope{
-		display: none;
-	}
-	body{
+@media screen and (max-width: 767px) {
+	body {
 		background-image: url(../img/mainBGm.png);
 	}
 }

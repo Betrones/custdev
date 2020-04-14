@@ -1,4 +1,5 @@
 .header{
+	height: 100px;
 	color: #fff;
 	padding: 22px;
 	display: flex;
@@ -31,7 +32,6 @@
 
 .header__cities{
 	text-transform: uppercase;
-	margin-right: 200px;
 }
 
 .header__link{
@@ -57,35 +57,20 @@
 	flex-direction: column;
 }
 
-@media screen and (max-width: 1023px){
-	.header{
-	height: 100px;
-	}
 
-	.header__link.-spb.-up{
-		text-align: left;
-		margin-right: 100px;
-	}
-
-	.header__cities{
-		display: flex;
-		justify-content: space-between;
-	}
-
-	.container.-header{
-		width: 400px;
-		margin: 10px 0;
+@media screen and (max-width: 979px) {
+	.header__actions{
+		display: none;
 	}
 }
+
+
 @media screen and (max-width: 767px) {
-
-	.header__link.-up{
-		/*display: flex;*/
+	.header__link.-spb.-up {
+		color: var(--color-white);
 	}
 
-	.header__cities{
-		/*margin-left: 100px;*/
-		/*display: flex;*/
+	.arrow-down {
+		border-top-color: var(--color-white);
 	}
-
 }

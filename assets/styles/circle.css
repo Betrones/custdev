@@ -58,3 +58,11 @@
 		bottom: -30px;
 	}
 }
+
+@media screen and (max-width: 767px){
+	.circle.-hero {
+
+	/*left: 200px;
+	bottom: -190px;*/
+}
+}

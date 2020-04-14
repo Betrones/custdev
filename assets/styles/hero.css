@@ -1,3 +1,7 @@
+.container.-n{
+	width: 100%;
+}
+
 .hero{
 	color: #fff;
 	min-height: 100vh;
@@ -9,6 +13,7 @@
 	justify-content: flex-end;
 	align-items: center;
 	padding: 70px 0;	
+	margin: 0;
 }
 
 .hero__right-part {
@@ -29,7 +34,11 @@
 	margin-bottom: 30px;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 767px) {
+	
+	.hero__right-part{
+		width: 100%;
+	}
 
 	
 }

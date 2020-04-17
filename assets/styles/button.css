@@ -23,3 +23,9 @@
 .button.-green:hover{
 	color: #2F80ED;
 }
+
+@media screen and (max-width: 767px){
+	.button.-green.-border.-up.-hero{
+		/*padding: 15px 100%;*/
+	}
+}

@@ -40,6 +40,27 @@
 		width: 100%;
 	}
 
-	
+	.hero__content{
+		padding: 15px;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.hero__right-part{
+		margin-bottom: 20px;
+	}
+
+	.hero__date{
+		font-size: 12px;
+	}
+
+	.hero__title{
+		font-size: 24px;
+	}
+
+	.hero__subtitle{
+		font-size: 14px;
+	}
 }
 

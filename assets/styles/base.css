@@ -33,6 +33,8 @@ body {
 
 @media screen and (max-width: 767px) {
 	body {
-		background-image: url(../img/mainBGm.png);
+		background-image: url(../img/mainBG.png);
+		background-size: 1200px;
+		background-position-x: -450px;
 	}
 }

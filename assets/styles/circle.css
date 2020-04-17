@@ -64,5 +64,9 @@
 
 	/*left: 200px;
 	bottom: -190px;*/
-}
+	}
+
+	.circle.-light-blue.-hero{
+		position: static;
+	}
 }

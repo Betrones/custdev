@@ -64,6 +64,11 @@
 	}
 }
 
+@media screen and (max-width: 849px){
+	.header{
+		padding-left: 0;
+	}
+}
 
 @media screen and (max-width: 767px) {
 	.header__link.-spb.-up {

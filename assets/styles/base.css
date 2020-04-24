@@ -22,6 +22,10 @@ body {
 	background-size: 100%;
 }
 
+.-up{
+	text-transform: uppercase;
+}
+
 @media screen and (max-width: 1023px) {
 	body {
 		background-image: url(../img/mainBGl.png);

@@ -1,7 +1,66 @@
 
 .who{
-	margin-top: 100px;
+	/*margin-top: 100px;
 	background-image: url(../img/whoBG.png);
 	height: 600px;
+	background-repeat: no-repeat;*/
+
+	background: url(../img/rectangle.png);
 	background-repeat: no-repeat;
+	background-position-x: 85px;
+}
+
+.reason__title.-who{
+	padding-top: 200px;
+	width: 100%;
+	height: 40px;
+	margin-bottom: 60px;
+}
+
+.card.-who{
+	width: 224px;
+	color: #636363;
+	background-color: rgba(47, 128, 237, 0.05);
+	margin-bottom: 25px;
+}
+
+.card__list.-who{
+	display: flex;
+	justify-content: space-between;
+}
+
+.card__title.-who{
+	font-size: 14px;
+	color: #2F80ED;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+.container.-m{
+	width: 850px;
+}
+
+@media screen and (max-width: 1023px){
+	.container.-m{
+		width: 624px;
+	}
+
+	.card.-who{
+		width: 178px;
+	}
+}
+
+@media screen and (max-width: 767px){
+	.card__list.-who{
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.container.-m {
+    	width: 384px;
+	}
+
+	.reason__title.-who{
+		height: 60px;
+	}
 }

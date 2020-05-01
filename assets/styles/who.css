@@ -1,26 +1,17 @@
-
 .who{
-	/*margin-top: 100px;
-	background-image: url(../img/whoBG.png);
-	height: 600px;
-	background-repeat: no-repeat;*/
-
 	background: url(../img/rectangle.png);
 	background-repeat: no-repeat;
 	background-position-x: 85px;
 }
 
 .reason__title.-who{
-	padding-top: 200px;
+	/*padding-top: 200px;*/
 	width: 100%;
-	height: 40px;
 	margin-bottom: 60px;
 }
 
 .card.-who{
-	width: 224px;
 	color: #636363;
-	background-color: rgba(47, 128, 237, 0.05);
 	margin-bottom: 25px;
 }
 
@@ -36,17 +27,17 @@
 	margin-bottom: 10px;
 }
 
-.container.-m{
+.container.-m {
 	width: 850px;
 }
 
 @media screen and (max-width: 1023px){
 	.container.-m{
-		width: 624px;
+		width: 730px;
 	}
 
-	.card.-who{
-		width: 178px;
+	.who {
+		background: var(--color-blue-transparent);
 	}
 }
 

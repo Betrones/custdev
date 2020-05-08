@@ -3,6 +3,15 @@
 	margin:0 auto;
 }
 
+section {
+	padding: 60px 0;
+}
+
+.section.hero{
+	padding-top: 0;
+	padding-bottom: 60px;
+}
+
 .content.-reasons{
 	display: flex;
 	justify-content: center;
@@ -27,5 +36,9 @@
 
 	.container.-r {
 		position: relative;
+	}
+
+	.section__hero{
+		height: 100%;
 	}
 }

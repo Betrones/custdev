@@ -39,6 +39,12 @@
 	.who {
 		background: var(--color-blue-transparent);
 	}
+
+	.card.-who.-transparent{
+		width: 210px;
+	}
+	
+	
 }
 
 @media screen and (max-width: 767px){

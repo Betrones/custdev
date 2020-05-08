@@ -84,5 +84,9 @@
 	.hero__subtitle{
 		font-size: 14px;
 	}
+
+	.hero{
+		max-height: 100vh;
+	}
 }
 

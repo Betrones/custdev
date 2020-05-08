@@ -90,10 +90,18 @@
 	}
 
 	.card.-reason{
-		width: 100%;
+		width: 320px;
 	}
 
 	.reason__title{
-		width: 100%;
+		width: 320px;
+	}
+
+	.content.-reasons{
+		width: 320px;
+	}
+
+	.container.-f{
+		width: 320px;
 	}
 }
